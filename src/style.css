@@ -10,18 +10,20 @@
   backdrop-filter: blur(5px);
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
+
   box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
   font-family: "Manrope", sans-serif;
   padding: 40px;
-  margin-top: 60px;
+  margin-top: 150px;
 }
 
 .search-input {
-  background-color: #ffeef5;
+  background-color: #f2c1d5;
   border-radius: 8px;
   border-color: #ff00bf;
   border-width: 3px;
   font-family: "Manrope", sans-serif;
+  font-weight: bolder;
   height: 42px;
   padding: 0 24px;
 }
@@ -98,15 +100,11 @@ p {
   color: #e30e87;
 }
 
-small {
-  color: #090909;
-}
-
 a,
 a:link,
 a:visited {
   font-size: 18px;
-  color: rgb(27, 26, 26);
+  color: rgb(27, 1, 66);
   font-family: "Manrope", sans-serif;
   text-align: center;
   display: inline;
@@ -132,8 +130,4 @@ img {
 div {
   display: block;
   margin: 0 auto;
-}
-li {
-  list-style: none;
-  text-align: center;
 }
